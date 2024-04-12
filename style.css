@@ -1,0 +1,33 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.formRegis {
+
+    background-color: rgba(30, 90, 95, 0.637);
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 40px;
+}
+
+.formRegis h3 {
+
+    font-size: 28px;
+    color: rgb(54, 68, 94);
+
+}
+
+.entrada {
+
+    width: 400px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 3px solid rgba(35, 39, 80, 0.658);
+    background-color: rgb(208, 241, 247);
+    margin-bottom: 10px;
+}

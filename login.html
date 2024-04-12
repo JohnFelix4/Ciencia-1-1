@@ -1,0 +1,98 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <nav>
+        <center>
+            <a href="index.html">home</a>
+            <a href="servicios.html">servicios</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Contacto.html">Contacto</a>
+        </center>
+
+    </nav>
+
+
+
+    <div>
+        <form method="post" action="resultado.html" class="formRegis">
+
+            <fieldset>
+                <h3>Pagina de Registro</h3>
+                <!--input para nombre-->
+                <div class="Nom">
+                    <label for="nombre">Nombre:</label>
+                    <input class="entrada" placeholder="Nombre/s" type="text" name="nom" id="nombre">
+                </div>
+                <!--input de apellido-->
+
+                <div class="ape">
+                    <label for="apellido">Apellido:</label>
+                    <input class="entrada" placeholder="Apellido/s" type="text" name="ape" id="apellido">
+                </div>
+
+                <!--form de genero-->
+
+                <form>
+                    <label for="Genero">
+                    <label for="masc">
+                    <input class="entrada" type="radio" name="gender" value="male" id="masc"> Hombre;<br>
+                    
+                    <input class="entrada" type="radio" name="gender" value="female"> Mujer <br>
+                    </label>
+                </form>
+
+                <!--input para correo-->
+
+                <div class="Cor">
+                    <label for="correo">Correo:</label>
+                    <input class="entrada" placeholder="Ingresa tu correo electronico" type="email" name="cor" id="correo">
+                </div>
+
+                <!--input para contraseña-->
+
+                <div class="Con">
+                    <label for="contraseña">Contraseña:</label>
+                    <input class="entrada" placeholder="Contraseña" type="password" name="con" id="contraseña">
+                </div>
+
+                <!--input para la fecha de nacimiento-->
+
+                <div>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input class="entrada" type="date" id="nacimiento" name="nac" value="dd" min="mm" max="yyyy" />
+                </div>
+
+                <!--Direccion-->
+
+                <div>
+                    <label for="direccion">Direccion</label>
+                    <textarea class="entrada" name="direccion" placeholder="Domicilio" id="direccion" cols="51" rows="10"></textarea>
+                </div>
+
+                <!--Form para entregar-->
+                <div class="registro">
+
+                    <input class="entrada" type="submit" value="Enviar">
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+
+
+
+</html>
